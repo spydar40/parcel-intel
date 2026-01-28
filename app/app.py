@@ -5,6 +5,12 @@ import pandas as pd
 
 from src.data_loader import load_orders
 from src.pipeline import run_customs_engine
+import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 sys.path.append(str(BASE_DIR))
