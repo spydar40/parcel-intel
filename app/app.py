@@ -69,7 +69,7 @@ def show_dashboard():
 
     with col_logo:
         st.image(
-            r"C:\Users\USER\Desktop\WCO_Ecommerce\images.jpg",
+            r"C:\Users\USER\Desktop\WCO_Ecommerce\app\images.jpg",
             width=90
         )
 
